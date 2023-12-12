@@ -1,0 +1,104 @@
+/* styles.css */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primaryPurple: #646ff0;
+  --black-1: #646681;
+  --black-2: #585858;
+  --bg-1: #f8f8ff;
+  --bg-2: #ecedf6;
+  --bg-3: #cccdde;
+  --gray-1: #eee;
+  --gray-2: #dedfe1;
+  --black: black;
+  --white: white;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: var(--bg-1);
+  /* background: transparent; Make it white if you need */
+  padding: 0 24px;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+ }
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.app-container {
+  color: #72a24d;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90vw;
+  overflow-y: auto;
+  padding: 20px;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a box shadow for a 3D effect */
+  /* Center the content vertically and horizontally */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+/* Optional: Add a hover effect to demonstrate animation */
+/* .app-container:hover {
+  width: 91vw; /* Expand to 100% of the viewport width on hover */
+} */
+
+.app-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* .app-list-item {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+} */
+
+
+.app-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.title {
+  display: inline-block;
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--black-1);
+  @include smallDeviceSize {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,13 @@
+.app-checkbox {
+  margin-right: 10px;
+}
+
+.app-list-item.checked {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.app-item-name.checked {
+  text-decoration: line-through;
+  color: grey;
+}
