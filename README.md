@@ -2,7 +2,7 @@
 
 A basic to-do list application built with React.
 
-![App Preview](./images/pic.PNG)
+![Alt text](src/images/pic.PNG)
 
 ## Features
 
