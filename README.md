@@ -57,4 +57,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to customize the content based on the specific details of your project. If you don't have a license file yet, you can create one or omit the "License" section.
+Feel free to customize the content based on the specific details of your project.
